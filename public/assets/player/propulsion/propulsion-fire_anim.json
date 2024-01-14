@@ -1,0 +1,24 @@
+{
+    "anims": [
+        {
+            "key": "fire",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "propulsion-fire",
+                    "frame": "propulsion-fire_0"
+                },
+                {
+                    "key": "propulsion-fire",
+                    "frame": "propulsion-fire_1"
+                },
+                {
+                    "key": "propulsion-fire",
+                    "frame": "propulsion-fire_2"
+                }
+            ]
+        }
+    ]
+}
