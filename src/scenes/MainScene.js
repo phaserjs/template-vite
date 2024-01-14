@@ -13,7 +13,7 @@ export class MainScene extends Scene {
     }
 
     create() {
-        this.add.image(0, 0, "bg")
+        this.add.image(0, 0, "background")
             .setOrigin(0, 0);
 
         // Player

@@ -12,7 +12,7 @@ export class Preloader extends Scene {
         // Load all the assets
         
         this.load.setPath("assets");
-        this.load.image("bg");
+        this.load.image("background", "bg.png");
         this.load.image("logo", "logo.png");
 
         this.load.image("player", "player/player.png");
