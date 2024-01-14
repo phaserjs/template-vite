@@ -1,0 +1,2 @@
+# template-vite
+Template Vite
