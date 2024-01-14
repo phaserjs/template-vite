@@ -6,7 +6,7 @@ This has been updated for Phaser 3.70.0 version and above.
 
 Loading images via JavaScript module `import` is also supported, although not recommended.
 
-![Screenshot](example.png)
+![Screenshot](https://i.gyazo.com/45ca0c9fc0abcf0ff712a71c65ee62f6.png)
 
 ## Requirements
 
