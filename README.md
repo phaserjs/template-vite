@@ -22,9 +22,9 @@ Loading images via JavaScript module `import` is also supported, although not re
 
 ## Writing Code
 
-After cloning the repo, run `npm install` from your project directory. Then, you can start the local development server by running `npm start`.
+After cloning the repo, run `npm install` from your project directory. Then, you can start the local development server by running `npm run dev`.
 
-After starting the development server with `npm start`, you can edit any files in the `src` folder and webpack will automatically recompile and reload your server (available at `http://localhost:8080` by default).
+After starting the development server with `npm run dev`, you can edit any files in the `src` folder and webpack will automatically recompile and reload your server (available at `http://localhost:8080` by default).
 
 ## Handling Assets
 
@@ -43,7 +43,7 @@ To load static files such as images, audio files, videos, etc place them into th
         this.load.image('logo', logoImg);
 
         //  This is an example of loading a static image from the public folder:
-        this.load.image('background', 'assets/bg.jpg');
+        this.load.image('background', 'assets/bg.png');
     }
 ```
 
