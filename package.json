@@ -16,11 +16,12 @@
     "homepage": "https://github.com/phaserjs/template-vite#readme",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview"
+        "dev-https": "vite --config vite-ssl.config.js",
+        "build": "vite build"
     },
     "devDependencies": {
-        "vite": "^5.0.8"
+        "vite": "^5.0.8",
+        "vite-plugin-mkcert": "^1.17.2"
     },
     "dependencies": {
         "phaser": "^3.70.0"
