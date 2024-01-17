@@ -24,7 +24,7 @@ Loading images via JavaScript module `import` is also supported, although not re
 
 After cloning the repo, run `npm install` from your project directory. Then, you can start the local development server by running `npm run dev`.
 
-After starting the development server with `npm run dev`, you can edit any files in the `src` folder and webpack will automatically recompile and reload your server (available at `http://localhost:8080` by default).
+After starting the development server with `npm run dev`, you can edit any files in the `src` folder and vite will automatically recompile and reload your server (available at `http://localhost:8080` by default).
 
 ## Handling Assets
 
