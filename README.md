@@ -83,7 +83,7 @@ If you want to customize your build, such as adding plugin (i.e. for loading CSS
 
 ## Join the Phaser Community!
 
-We love to see what developers like you create with Phaser! It really motivates us to keep improving the engine. So please join our community and show-off your work 😄
+We love to see what developers like you create with Phaser! It really motivates us to keep improving. So please join our community and show-off your work 😄
 
 **Visit:** The [Phaser website](https://phaser.io) and follow on [Phaser Twitter](https://twitter.com/phaser_)<br />
 **Play:** Some of the amazing games [#madewithphaser](https://twitter.com/search?q=%23madewithphaser&src=typed_query&f=live)<br />
