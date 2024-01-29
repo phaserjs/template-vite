@@ -8,7 +8,7 @@ const phasermsg = () => {
         },
         buildEnd() {
             const line = "---------------------------------------------------------";
-            const msg = `💜💜💜 Tell us about your game! - games@phaser.io 💜💜💜`;
+            const msg = `❤️❤️❤️ Tell us about your game! - games@phaser.io ❤️❤️❤️`;
             process.stdout.write(`${line}\n${msg}\n${line}\n`);
             
             process.stdout.write(`✨ Done ✨\n`);
@@ -27,6 +27,16 @@ export default defineConfig({
                 }
             }
         },
+        minify: 'terser',
+        terserOptions: {
+            compress: {
+                passes: 2
+            },
+            mangle: true,
+            format: {
+                comments: false
+            }
+        }
     },
     server: {
         port: 8080
