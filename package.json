@@ -2,7 +2,7 @@
     "name": "template-vite",
     "description": "A Phaser 3 template using Vite.",
     "private": true,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "module",
     "repository": {
         "type": "git",
@@ -16,8 +16,8 @@
     },
     "homepage": "https://github.com/phaserjs/template-vite#readme",
     "scripts": {
-        "dev": "vite",
-        "build": "vite build --config vite.config.prod.js"
+        "dev": "vite --config vite/config.dev.js",
+        "build": "vite build --config vite/config.prod.js"
     },
     "devDependencies": {
         "vite": "^5.0.8"
