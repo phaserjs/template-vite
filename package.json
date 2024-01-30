@@ -1,7 +1,6 @@
 {
     "name": "template-vite",
     "description": "A Phaser 3 template using Vite.",
-    "private": true,
     "version": "1.0.3",
     "type": "module",
     "repository": {
