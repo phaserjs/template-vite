@@ -2,6 +2,8 @@
 
 This is a Phaser 3 project template that uses Vite for bundling. It supports hot-reloading for quick development workflow and includes scripts to generate production-ready builds.
 
+**[This Template is also available as a TypeScript version.](https://github.com/phaserjs/template-vite-ts)**
+
 ### Versions
 
 This template has been updated for:
