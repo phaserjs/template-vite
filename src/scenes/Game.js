@@ -25,9 +25,16 @@ export class Game extends Scene
             50 * vh, 
             'Make something fun!\nand share it with us:\nsupport@phaser.io', 
             {
-                fontFamily: 'Arial Black', fontSize: 38, color: '#ffffff',
-                stroke: '#000000', strokeThickness: 8,
-                align: 'center'
+                fontFamily: 'Arial Black', 
+                fontSize: 38, 
+                color: '#ffffff',
+                stroke: '#000000', 
+                strokeThickness: 8,
+                align: 'center',
+                wordWrap: {
+                    width: 100 * vw,
+                    useAdvancedWrap: true,
+                }
             }
         ).setOrigin(0.5);
 
