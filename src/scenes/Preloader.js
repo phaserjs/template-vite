@@ -69,8 +69,6 @@ export class Preloader extends Scene
     {
         //  Load the assets for the game - Replace with your own assets
         this.load.setPath('assets');
-
-        this.load.image('blah', 'https://thumbs.dreamstime.com/z/blah-speech-bubble-background-15259952.jpg');
         this.load.image('logo', 'logo.png');
     }
 
