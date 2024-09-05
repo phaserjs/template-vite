@@ -5,7 +5,7 @@ export const main = async () => {
     const args = process.argv.slice(2);
     const packageData = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
     const event = args[0] || 'unknown';
-    const phaserVersion =  packageData.dependencies.phaser;
+    const phaserVersion = packageData.dependencies.phaser;
 
     const options = {
         hostname: 'gryzor.co',
@@ -15,15 +15,21 @@ export const main = async () => {
     };
 
     try {
-        
-        const req = https.request(options, (res) => {});
-        
-        req.on('error', (error) => {});
+        const req = https.request(options, (res) => {
+            res.on('data', () => {});
+            res.on('end', () => {
+                process.exit(0);
+            });
+        });
+
+        req.on('error', (error) => {
+            process.exit(1);
+        });
 
         req.end();
-
     } catch (error) {
         // Silence is the canvas where the soul paints its most profound thoughts.
+        process.exit(1);
     }
 }
 
