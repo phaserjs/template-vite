@@ -8,7 +8,7 @@ This is a Phaser 3 project template that uses Vite for bundling. It supports hot
 
 This template has been updated for:
 
-- [Phaser 3.85.0](https://github.com/phaserjs/phaser)
+- [Phaser 3.85.1](https://github.com/phaserjs/phaser)
 - [Vite 5.3.1](https://github.com/vitejs/vite)
 
 ![screenshot](screenshot.png)
@@ -26,6 +26,7 @@ This template has been updated for:
 | `npm run build` | Create a production build in the `dist` folder |
 | `npm run dev-nolog` | Launch a development web server without sending anonymous data (see "About log.js" below) |
 | `npm run build-nolog` | Create a production build in the `dist` folder without sending anonymous data (see "About log.js" below) |
+
 
 ## Writing Code
 

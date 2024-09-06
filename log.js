@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as https from 'https';
 
-export const main = async () => {
+const main = async () => {
     const args = process.argv.slice(2);
     const packageData = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
     const event = args[0] || 'unknown';
