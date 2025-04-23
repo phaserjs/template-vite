@@ -48,8 +48,7 @@ We have provided a default project structure to get you started. This is as foll
 | `src/main.js`                | Application bootstrap.                                     |
 | `src/game`                   | Folder containing the game code.                           |
 | `src/game/main.js`           | Game entry point: configures and starts the game.          |
-| `src/game/scenes`            | Folder with all Phaser game scenes.                        |                                             |
-
+| `src/game/scenes`            | Folder with all Phaser game scenes.                        | 
 
 ## Handling Assets
 
